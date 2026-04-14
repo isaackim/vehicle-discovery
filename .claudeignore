@@ -1,0 +1,43 @@
+# ─── Dependencies ─────────────────────────────────────────────────────────────
+node_modules/
+.pnp
+.pnp.js
+
+# ─── Next.js build output ─────────────────────────────────────────────────────
+.next/
+out/
+build/
+
+# ─── Package manager lockfiles ────────────────────────────────────────────────
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# ─── Environment / secrets ────────────────────────────────────────────────────
+.env
+.env.local
+.env.*.local
+
+# ─── Type-gen and build artifacts ─────────────────────────────────────────────
+next-env.d.ts
+*.tsbuildinfo
+*.js.map
+*.d.ts.map
+
+# ─── OS / editor noise ────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+*.pem
+
+# ─── Logs ─────────────────────────────────────────────────────────────────────
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ─── Test / coverage output ───────────────────────────────────────────────────
+coverage/
+.nyc_output/
+
+# ─── Vercel / CI artifacts ────────────────────────────────────────────────────
+.vercel/
